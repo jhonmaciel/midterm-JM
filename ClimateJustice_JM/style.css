@@ -1,0 +1,11 @@
+*{
+    font-size:x-large;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}

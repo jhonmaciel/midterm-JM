@@ -3,9 +3,251 @@
     padding: 5px;
     margin: 5px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-image:url('/images/que_es_el_deshielo_de_los_polos_187_0_600.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 h1{
     color: blue;
     text-transform: uppercase;
     letter-spacing: 1rem;
 }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    /* grid-template-rows: repeat(3, 100px); */
+    gap: 10px;
+    grid-template-areas: 
+
+
+    "header header header header"
+    "tt tt isue isue"
+    "conse conse conse qf"
+    "conse conse conse qg"
+    "conse conse conse qw"
+    "qr qr solu solu"
+    "qr qr solu solu"
+    "qi qi solu solu"
+    "qi qi solu solu"
+    "qt qt solu solu"
+    "qt qt solu solu"
+    "zw zw solu solu"
+    "zw zw solu solu"
+    "qy sh sh sh"
+    "zr sh sh sh"
+    "af af qu qu"
+    "af af qu qu"
+    "af af qe qe"
+    "af af qe qe"
+    
+
+    ;
+    /* border: 1px solid #000000; */
+}
+.grid-item1{
+    grid-area: header;
+    border: 1px solid #000000;
+    /* width: 100%; */
+    /* height: 90vh; */
+}
+.grid-item2{
+    grid-area: isue;
+    border: 1px solid #832525;
+    background-color: azure;
+    
+    /* height: 90vh; */
+    /* width: max-content; */
+    
+
+}
+.grid-item3{
+    grid-area: conse;
+    background-color: aquamarine;
+}
+.grid-item4{
+    grid-area: solu;
+    background-color: #87cae1;
+}
+.grid-item5{
+    grid-area: sh;
+}
+.grid-item6{
+    grid-area: af;
+    background-color: lightcyan;
+}
+
+
+
+
+.grid-item-a{
+    grid-area: qf;
+}
+.grid-item-b{
+    grid-area: qg;
+}
+
+
+.grid-item-c{
+    grid-area: qw;
+
+}
+.grid-item-d{
+    grid-area: qe;
+
+}
+
+.grid-item-e{
+    grid-area: qr;
+    
+
+}
+
+.grid-item-f{
+    grid-area: qt;
+
+}
+.grid-item-g{
+    grid-area: qy;
+    
+
+}
+.grid-item-h{
+    grid-area: qu;
+
+}
+.grid-item-i{
+    grid-area: qi;
+    
+
+}
+.grid-item-j{
+    grid-area: zw;
+
+}
+/* .grid-item-k{
+    grid-area: ze;
+} */
+.grid-item-l{
+    grid-area: zr;
+
+}
+
+
+.grid-item-m{
+    grid-area: tt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.grid-item-m .image{
+    
+    border: 1px solid #000000;
+    width: 25%;
+    height: 20%;
+} */
+
+
+
+/* image{
+    width: 10px;
+    height: 200px;
+} */
+
+
+
+
+
+
+
+
+/* 
+.grid-item {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.grid-item-m{
+    grid-area: qa;
+    border: 1px solid #000000;
+}
+.grid-item-l{
+    grid-area: ec;
+    border: 1px solid #000000;
+}
+.grid-item-k{
+    grid-area: rv;
+    border: 1px solid #000000;
+    max-width: fit-content;
+}
+.grid-item-j image{
+    grid-area: qa;
+    border: 1px solid #000000;
+    max-width: fit-content;
+}
+
+ */
+
+/* 
+.grid-item5{
+    grid-area: cu;
+    border: 1px solid #832525;
+}
+.grid-item6{
+    grid-area: te;
+}
+.grid-item7{
+    grid-area: te;
+}
+.grid-item8{
+    grid-area: qu;
+    border: 1px solid #16b169;
+}
+.grid-item9{
+    grid-area: te;
+}
+.grid-item10{
+    grid-area: te;
+}
+.grid-item11{
+    grid-area: qu;
+    border: 1px solid #16b169;
+}
+.grid-item12{
+    grid-area: qu;
+    border: 1px solid #16b169;
+} */

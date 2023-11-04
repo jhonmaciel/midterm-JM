@@ -7,7 +7,8 @@
     
 }
 body{
-    background-image:url('./images/que_es_el_deshielo_de_los_polos_187_0_600.jpg');
+    background-image:url('https://cdn0.ecologiaverde.com/es/posts/7/8/1/que_es_el_deshielo_de_los_polos_187_0_600.webp');
+    /* its the same as background-image:url('/images/que_es_el_deshielo_de_los_polos_187_0_600.jpg'); */
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
